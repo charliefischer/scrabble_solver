@@ -13,6 +13,8 @@ class Scrabble {
   pointsChecker(word) {
     if (word === 'a') {
       return this.score = 1
+    } else if (word === 'f') {
+      return this.score = 4
     }
   }
 

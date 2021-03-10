@@ -21,6 +21,11 @@ describe('Scrabble', () => {
     scrabble = new Scrabble('a')
     expect(scrabble.showScore()).toEqual(1)
   })
+
+  test('f returns a score of 4', () => {
+    scrabble = new Scrabble('f')
+    expect(scrabble.showScore()).toEqual(4)
+  })
 })
 
 describe('PointChecker', () => {
